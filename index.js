@@ -10,6 +10,9 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (error) => {
+        error ? console.error(error) : console.log("Generating README file...");
+    });
 }
 
 // function to initialize program
@@ -55,12 +58,7 @@ function init() {
                 name: "tests",
             },
         ]
-    ).then((response) => {
-        fs.writeFile("sampleREADME.md", JSON.stringify(response), (error) => {
-            error ? console.error(error) : console.log("Success!");
-    })}
-    );
-
+    ).then((response) => writeToFile("sampleREADME", JSON.stringify(response)))
 }
 
 // function call to initialize program
