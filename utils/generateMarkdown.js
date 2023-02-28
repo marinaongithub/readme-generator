@@ -1,6 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  const licenceURL = `![Github license](https://img.shields.io/badge/license-${data.license}-blue)`;
+  let licenceURL = `![Github license](https://img.shields.io/badge/license-${data.license}-blue)`;
   return `
   # ${data.title}
   ${licenceURL} 
@@ -11,8 +11,10 @@ function generateMarkdown(data) {
   ## Table of contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
   ## Installation
   ${data.installation}

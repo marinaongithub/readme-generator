@@ -1,30 +1,32 @@
 
-  # test
+  # My sample project
   ![Github license](https://img.shields.io/badge/license-MIT-blue) 
   
   ## Description 
-  test
+  This is a brief description of what the project does, its features and functionalities, and the problem it solves.
   
   ## Table of contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Credits](#credits)
   - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
   ## Installation
-  test
+  install the required dependencies using npm install
   
   ## Usage
-  test
+  Run the project using npm start
   
   ## License
   MIT 
 
   ## Contributing
-  test 
+  We welcome contributions from anyone! To contribute to this project, Fork this repository, Create a new branch for your feature using git checkout -b your-feature... 
 
   ## Tests
-  test 
+  To run tests for this project, Run tests using npm test 
 
   ## Questions
-  test
+  If you have any questions about this project, please feel free to contact us at email@example.com.
