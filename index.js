@@ -37,7 +37,7 @@ function init() {
                 name: "description",
                 validate: (input) => {
                     if (!input) {
-                        return "Please enter project title!";
+                        return "Please enter project description!";
                     }
                     return true;
                 }
@@ -48,7 +48,7 @@ function init() {
                 name: "installation",
                 validate: (input) => {
                     if (!input) {
-                        return "Please enter project title!";
+                        return "Please enter project installation steps!";
                     }
                     return true;
                 }
@@ -59,7 +59,7 @@ function init() {
                 name: "usage",
                 validate: (input) => {
                     if (!input) {
-                        return "Please enter project title!";
+                        return "Please enter project intructions for use!";
                     }
                     return true;
                 }
@@ -76,7 +76,7 @@ function init() {
                 name: "contributing",
                 validate: (input) => {
                     if (!input) {
-                        return "Please enter project title!";
+                        return "Please enter guidelines for contributing!";
                     }
                     return true;
                 }
@@ -87,7 +87,7 @@ function init() {
                 name: "tests",
                 validate: (input) => {
                     if (!input) {
-                        return "Please enter project title!";
+                        return "Please enter project tests!";
                     }
                     return true;
                 }
@@ -98,7 +98,7 @@ function init() {
                 name: "questions",
                 validate: (input) => {
                     if (!input) {
-                        return "Please enter project title!";
+                        return "Please enter contact details for use questions!";
                     }
                     return true;
                 }
