@@ -98,7 +98,7 @@ function init() {
                 name: "questions",
                 validate: (input) => {
                     if (!input) {
-                        return "Please enter contact details for use questions!";
+                        return "Please enter contact details for user questions!";
                     }
                     return true;
                 }
